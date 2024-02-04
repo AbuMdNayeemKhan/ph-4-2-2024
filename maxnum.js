@@ -11,4 +11,7 @@ if(num1 > num2 && num1 > num3){
     console.log('The bigger number is: ' + num3);
 }
 
+let maxnum = Math.max(num1, num2, num3);
+console.log(maxnum);
+
 // print the bigger number for those value by using ja max function
