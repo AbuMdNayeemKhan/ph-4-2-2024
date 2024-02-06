@@ -11,7 +11,6 @@ function mul(num1, num2){
 function div(num1, num2){
     return num1 / num2;
 }
-
 function calculator(num1, num2, cal){
     if (cal === '+') {
          console.log(add(num1, num2));
@@ -25,5 +24,4 @@ function calculator(num1, num2, cal){
         console("No aratematick oparator found.");
     };
 };
-
 calculator(2, 2, '+');
